@@ -5,7 +5,7 @@ pipeline{
   stages{
     stage ('hello'){
       steps{
-       sh 'echo PUSHKAR RANJAN'
+       echo 'PUSHKAR RANJAN'
       }
     }
   }
